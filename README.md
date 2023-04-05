@@ -32,4 +32,5 @@ workingForm
 2. xampp/htdocs 폴더 안에 다운 받은 파일 복사
 3. XAMPP Control Panel 실행 후 Apache Start
 4. vscode에서 workingForm 폴더를 연 후 터미널을 켜서 composer install 명령어 실행(vendor 설치)
-5. 브라우저 실행후에 주소창에 http://localhost/workingForm/index.html 입력
+5. 실사용시 message.php의 $mail->Host, $mail->Username, $mail->Password 등의 세부 내역 수정 필요
+6. 브라우저 실행후에 주소창에 http://localhost/workingForm/index.html 입력
