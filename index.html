@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>연락 문서 양식</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>이메일 메시지 보내기</header>
+
+			<form action="http://www.naver.com">
+				<div class="dbl-field">
+					<div class="field">
+						<input type="text" name="name" placeholder="이름 입력" />
+						<i class="fas fa-user"></i>
+					</div>
+					<div class="field">
+						<input type="text" name="email" placeholder="이메일 입력" />
+						<i class="fas fa-envelope"></i>
+					</div>
+				</div>
+				<div class="dbl-field">
+					<div class="field">
+						<input type="text" name="phone" placeholder="폰번호 입력" />
+						<i class="fas fa-phone-alt"></i>
+					</div>
+					<div class="field">
+						<input type="text" name="website" placeholder="웹사이트 입력" />
+						<i class="fas fa-globe"></i>
+					</div>
+				</div>
+				<div class="message">
+					<textarea placeholder="메시지 입력" name="message"></textarea>
+					<i class="material-icons">messages</i>
+				</div>
+				<div class="button-area">
+					<button type="submit">메시지 보내기</button>
+					<span>메시지 전송</span>
+				</div>
+			</form>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
